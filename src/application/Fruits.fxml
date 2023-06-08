@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="664.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.FruitsController">
+   <children>
+      <Label fx:id="idLabel" alignment="CENTER" layoutX="542.0" layoutY="11.0" prefHeight="18.0" prefWidth="102.0" underline="true">
+         <font>
+            <Font name="Goudy Old Style" size="12.0" />
+         </font>
+      </Label>
+      <FlowPane layoutX="55.0" layoutY="67.0" prefHeight="506.0" prefWidth="570.0" AnchorPane.leftAnchor="55.0" AnchorPane.rightAnchor="40.0">
+         <children>
+            <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="154.0" prefWidth="254.0">
+               <children>
+                  <ImageView fitHeight="101.0" fitWidth="134.0" layoutX="74.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/mango-.jpg" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+                  <Button fx:id="addMango" blendMode="DARKEN" layoutX="117.0" layoutY="126.0" mnemonicParsing="false" onAction="#addToCartMango" prefHeight="28.0" prefWidth="90.0" style="-fx-background-color: #4776e4;" text="Add to Cart">
+                     <font>
+                        <Font name="Bell MT" size="14.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Label layoutX="74.0" layoutY="126.0" prefHeight="28.0" prefWidth="40.0" text="80 Rs/-">
+                     <font>
+                        <Font name="Calibri" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Mango" alignment="CENTER" layoutX="74.0" layoutY="103.0" prefHeight="22.0" prefWidth="134.0" style="-fx-background-color: black;" text="Mango" textFill="WHITE">
+                     <font>
+                        <Font name="Bell MT Bold" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="155.0" prefWidth="254.0">
+               <children>
+                  <ImageView fitHeight="101.0" fitWidth="143.0" layoutX="74.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../resources/gallery-1432664914-strawberry-facts1.jpg" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="addStrawbery" blendMode="DARKEN" layoutX="127.0" layoutY="127.0" mnemonicParsing="false" onAction="#addToCartStrawbery" prefHeight="28.0" prefWidth="90.0" style="-fx-background-color: #4776e4;" text="Add to Cart">
+                     <font>
+                        <Font name="Bell MT" size="14.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Label layoutX="74.0" layoutY="127.0" prefHeight="28.0" prefWidth="40.0" text="60 Rs/-">
+                     <font>
+                        <Font name="Calibri" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Strawbery" alignment="CENTER" layoutX="74.0" layoutY="100.0" prefHeight="26.0" prefWidth="143.0" style="-fx-background-color: black;" text="Strawbery" textFill="WHITE">
+                     <font>
+                        <Font name="Bell MT Bold" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="169.0" prefWidth="254.0">
+               <children>
+                  <ImageView fitHeight="97.0" fitWidth="143.0" layoutX="72.0" layoutY="17.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../resources/pineapple-fruit-500x500.jpg" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="addPineapple" blendMode="DARKEN" layoutX="115.0" layoutY="128.0" mnemonicParsing="false" onAction="#addToCartPineapple" prefHeight="28.0" prefWidth="90.0" style="-fx-background-color: #4776e4;" text="Add to Cart">
+                     <font>
+                        <Font name="Bell MT" size="14.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Label layoutX="72.0" layoutY="128.0" prefHeight="28.0" prefWidth="40.0" text="40 Rs/-">
+                     <font>
+                        <Font name="Calibri" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Pineapple" alignment="CENTER" layoutX="72.0" layoutY="101.0" prefHeight="26.0" prefWidth="134.0" style="-fx-background-color: black;" text="Pineapple" textFill="WHITE">
+                     <font>
+                        <Font name="Bell MT Bold" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="146.0" prefWidth="254.0">
+               <children>
+                  <ImageView fitHeight="97.0" fitWidth="143.0" layoutX="73.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../resources/whole-and-slices-watermelon.jpg" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="addWatermelon" blendMode="DARKEN" layoutX="129.0" layoutY="110.0" mnemonicParsing="false" onAction="#addToCartWatermelon" prefHeight="28.0" prefWidth="90.0" style="-fx-background-color: #4776e4;" text="Add to Cart">
+                     <font>
+                        <Font name="Bell MT" size="14.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Label layoutX="77.0" layoutY="110.0" prefHeight="28.0" prefWidth="40.0" text="30 Rs/-">
+                     <font>
+                        <Font name="Calibri" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="Watermelon" alignment="CENTER" layoutX="77.0" layoutY="84.0" prefHeight="26.0" prefWidth="143.0" style="-fx-background-color: black;" text="Watermelon" textFill="WHITE">
+                     <font>
+                        <Font name="Bell MT Bold" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="146.0" prefWidth="254.0">
+               <children>
+                  <ImageView fitHeight="83.0" fitWidth="134.0" layoutX="76.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../resources/banana-fruit-500x500.jpg" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+                  <Button fx:id="addBananna" blendMode="DARKEN" layoutX="116.0" layoutY="104.0" mnemonicParsing="false" onAction="#addTocartBananna" prefHeight="28.0" prefWidth="90.0" style="-fx-background-color: #4776e4;" text="Add to Cart">
+                     <font>
+                        <Font name="Bell MT" size="14.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Label layoutX="76.0" layoutY="104.0" prefHeight="28.0" prefWidth="40.0" text="10 Rs/-">
+                     <font>
+                        <Font name="Calibri" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="80.0" layoutY="81.0" prefHeight="22.0" prefWidth="126.0" style="-fx-background-color: black;" text="Bananna" textFill="WHITE">
+                     <font>
+                        <Font name="Bell MT Bold" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="146.0" prefWidth="254.0">
+               <children>
+                  <ImageView fitHeight="97.0" fitWidth="135.0" layoutX="103.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../resources/cerise-large.jpg" />
+                     </image>
+                  </ImageView>
+                  <Button fx:id="addCherry" blendMode="DARKEN" layoutX="147.0" layoutY="108.0" mnemonicParsing="false" onAction="#addToCartCherry" prefHeight="28.0" prefWidth="90.0" style="-fx-background-color: #4776e4;" text="Add to Cart">
+                     <font>
+                        <Font name="Bell MT" size="14.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Label layoutX="103.0" layoutY="108.0" prefHeight="28.0" prefWidth="40.0" text="10 Rs/-">
+                     <font>
+                        <Font name="Calibri" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="103.0" layoutY="86.0" prefHeight="22.0" prefWidth="134.0" style="-fx-background-color: black;" text="Cherry" textFill="WHITE">
+                     <font>
+                        <Font name="Bell MT Bold" size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </FlowPane>
+      <AnchorPane layoutY="528.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="664.0" style="-fx-background-color: white;" AnchorPane.bottomAnchor="-2.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Button fx:id="Menu" layoutX="27.0" layoutY="9.0" mnemonicParsing="false" onAction="#goToMenu" prefHeight="27.0" prefWidth="52.0" style="-fx-background-color: skyblue;" text="Back" underline="true" AnchorPane.bottomAnchor="12.0" AnchorPane.leftAnchor="14.0">
+               <font>
+                  <Font name="Modern No. 20" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="cart" layoutX="102.0" layoutY="9.0" mnemonicParsing="false" onAction="#goToCart" prefHeight="27.0" prefWidth="52.0" style="-fx-background-color: skyblue;" text="Cart" underline="true" AnchorPane.bottomAnchor="12.0" AnchorPane.leftAnchor="83.0">
+               <font>
+                  <Font name="Modern No. 20" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

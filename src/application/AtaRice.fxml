@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="664.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AtaRiceController">
+   <children>
+      <FlowPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="590.0" prefWidth="637.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="27.0">
+         <children>
+            <AnchorPane prefHeight="190.0" prefWidth="205.0">
+               <children>
+                  <ImageView fitHeight="142.0" fitWidth="118.0" layoutX="62.0" layoutY="24.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../resources/Ata%20Rice/995ad6eaf555df2abecdcc8664352349a29e88f8ee9d858fb666ea4554d7b448-01.jpg" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="90.0" layoutY="163.0" mnemonicParsing="false" onAction="#addToCartAashirwadAtta" prefHeight="27.0" prefWidth="90.0" style="-fx-background-color: #4776e4;" text="Add to Cart">
+                     <font>
+                        <Font name="Bell MT" size="14.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="40.0" layoutY="167.0" text="150 Rs/-" />
+                  <Label alignment="CENTER" layoutX="62.0" layoutY="144.0" prefHeight="18.0" prefWidth="118.0" style="-fx-background-color: Black;" text="Aashirwaad Atta" textFill="WHITE">
+                     <font>
+                        <Font name="Bell MT Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="190.0" prefWidth="213.0">
+               <children>
+                  <ImageView fitHeight="142.0" fitWidth="137.0" layoutX="47.0" layoutY="24.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../resources/Ata%20Rice/annapoorna-garlic-rice-powder-50gms-500x500.jpg" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="93.0" layoutY="162.0" mnemonicParsing="false" onAction="#addToCartDalRicePowder" prefHeight="27.0" prefWidth="90.0" style="-fx-background-color: #4776e4;" text="Add to Cart">
+                     <font>
+                        <Font name="Bell MT" size="14.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="47.0" layoutY="167.0" text="170 Rs/-" />
+                  <Label alignment="CENTER" layoutX="46.0" layoutY="143.0" prefHeight="18.0" prefWidth="137.0" style="-fx-background-color: Black;" text="Dal Rice Powder" textFill="WHITE">
+                     <font>
+                        <Font name="Bell MT Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="190.0" prefWidth="194.0">
+               <children>
+                  <ImageView fitHeight="142.0" fitWidth="118.0" layoutX="62.0" layoutY="24.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../resources/Ata%20Rice/Nutrapoorna-Chana-Dal-Select-Dals.png" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="89.0" layoutY="162.0" mnemonicParsing="false" onAction="#addToCartNewtrapoorna" prefHeight="27.0" prefWidth="90.0" style="-fx-background-color: #4776e4;" text="Add to Cart">
+                     <font>
+                        <Font name="Bell MT" size="14.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="40.0" layoutY="167.0" text="140 Rs/-" />
+                  <Label alignment="CENTER" layoutX="62.0" layoutY="143.0" prefHeight="18.0" prefWidth="118.0" style="-fx-background-color: Black;" text="Nutrapoorna" textFill="WHITE">
+                     <font>
+                        <Font name="Bell MT Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="190.0" prefWidth="205.0">
+               <children>
+                  <ImageView fitHeight="142.0" fitWidth="125.0" layoutX="55.0" layoutY="24.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../resources/Ata%20Rice/2974_4.jpeg" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="89.0" layoutY="166.0" mnemonicParsing="false" onAction="#addToCartGoldMultiGrain" prefHeight="27.0" prefWidth="90.0" style="-fx-background-color: #4776e4;" text="Add to Cart">
+                     <font>
+                        <Font name="Bell MT" size="14.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="44.0" layoutY="171.0" text="160 Rs/-" />
+                  <Label alignment="CENTER" layoutX="55.0" layoutY="147.0" prefHeight="18.0" prefWidth="125.0" style="-fx-background-color: Black;" text="Gold Multi Grain" textFill="WHITE">
+                     <font>
+                        <Font name="Bell MT Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="190.0" prefWidth="213.0">
+               <children>
+                  <ImageView fitHeight="142.0" fitWidth="137.0" layoutX="47.0" layoutY="24.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../resources/Ata%20Rice/atta-dal-rice-combo-chakki-atta-5-kg-toor-dal-2-kg-surti-kolam-rice-2-kg-product-images-o492338750-p590318703-1-202203170848.jpg" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="93.0" layoutY="166.0" mnemonicParsing="false" onAction="#addTocartChakkiAtta" prefHeight="27.0" prefWidth="90.0" style="-fx-background-color: #4776e4;" text="Add to Cart">
+                     <font>
+                        <Font name="Bell MT" size="14.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="47.0" layoutY="171.0" text="250 Rs/-" />
+                  <Label alignment="CENTER" layoutX="47.0" layoutY="147.0" prefHeight="18.0" prefWidth="137.0" style="-fx-background-color: Black;" text="Chakki Atta" textFill="WHITE">
+                     <font>
+                        <Font name="Bell MT Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="190.0" prefWidth="194.0">
+               <children>
+                  <ImageView fitHeight="142.0" fitWidth="131.0" layoutX="49.0" layoutY="24.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../resources/Ata%20Rice/gold.jpg" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="89.0" layoutY="166.0" mnemonicParsing="false" onAction="#addToCartChapatiflour" prefHeight="27.0" prefWidth="90.0" style="-fx-background-color: #4776e4;" text="Add to Cart">
+                     <font>
+                        <Font name="Bell MT" size="14.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="45.0" layoutY="168.0" text="140 Rs/-" />
+                  <Label alignment="CENTER" layoutX="49.0" layoutY="147.0" prefHeight="18.0" prefWidth="131.0" style="-fx-background-color: Black;" text="Chapati flour" textFill="WHITE">
+                     <font>
+                        <Font name="Bell MT Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="203.0" prefWidth="206.0">
+               <children>
+                  <ImageView fitHeight="142.0" fitWidth="125.0" layoutX="55.0" layoutY="24.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../resources/Ata%20Rice/Deep-Multigrain-9kg.jpg" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="89.0" layoutY="162.0" mnemonicParsing="false" onAction="#addToCartMuligaanAtta" prefHeight="27.0" prefWidth="90.0" style="-fx-background-color: #4776e4;" text="Add to Cart">
+                     <font>
+                        <Font name="Bell MT" size="14.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="44.0" layoutY="167.0" text="209 Rs/-" />
+                  <Label alignment="CENTER" layoutX="55.0" layoutY="143.0" prefHeight="18.0" prefWidth="125.0" style="-fx-background-color: Black;" text="Muligaan Atta" textFill="WHITE">
+                     <font>
+                        <Font name="Bell MT Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="190.0" prefWidth="213.0">
+               <children>
+                  <ImageView fitHeight="142.0" fitWidth="137.0" layoutX="47.0" layoutY="24.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../resources/Ata%20Rice/MAIDA-500G-FRONT-900-X-90061bb220a75348.png" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="93.0" layoutY="166.0" mnemonicParsing="false" onAction="#addToCartMothersMaida" prefHeight="27.0" prefWidth="90.0" style="-fx-background-color: #4776e4;" text="Add to Cart">
+                     <font>
+                        <Font name="Bell MT" size="14.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="47.0" layoutY="171.0" text="199 Rs/-" />
+                  <Label alignment="CENTER" layoutX="52.0" layoutY="147.0" prefHeight="18.0" prefWidth="131.0" style="-fx-background-color: Black;" text="Mother's Maida" textFill="WHITE">
+                     <font>
+                        <Font name="Bell MT Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="190.0" prefWidth="194.0">
+               <children>
+                  <ImageView fitHeight="142.0" fitWidth="118.0" layoutX="62.0" layoutY="24.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../resources/Ata%20Rice/41oyngoF3GL._SL500_.jpg" />
+                     </image>
+                  </ImageView>
+                  <Button layoutX="89.0" layoutY="165.0" mnemonicParsing="false" onAction="#addToCartBlackWheat" prefHeight="27.0" prefWidth="90.0" style="-fx-background-color: #4776e4;" text="Add to Cart">
+                     <font>
+                        <Font name="Bell MT" size="14.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="40.0" layoutY="170.0" text="170 Rs/-" />
+                  <Label alignment="CENTER" layoutX="58.0" layoutY="146.0" prefHeight="18.0" prefWidth="118.0" style="-fx-background-color: Black;" text="Black Wheat" textFill="WHITE">
+                     <font>
+                        <Font name="Bell MT Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </FlowPane>
+      <AnchorPane layoutY="590.0" prefHeight="51.0" prefWidth="664.0" style="-fx-background-color: White;" AnchorPane.bottomAnchor="-1.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Button fx:id="Menu" layoutX="14.0" layoutY="12.0" mnemonicParsing="false" onAction="#goToMenu" prefHeight="27.0" prefWidth="52.0" style="-fx-background-color: skyblue;" text="Back" underline="true" AnchorPane.bottomAnchor="12.0" AnchorPane.leftAnchor="14.0">
+               <font>
+                  <Font name="Modern No. 20" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="cart" layoutX="83.0" layoutY="12.0" mnemonicParsing="false" onAction="#goToCart" prefHeight="27.0" prefWidth="55.0" style="-fx-background-color: skyblue;" text="Cart" underline="true" AnchorPane.bottomAnchor="12.0" AnchorPane.leftAnchor="83.0">
+               <font>
+                  <Font name="Modern No. 20" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
